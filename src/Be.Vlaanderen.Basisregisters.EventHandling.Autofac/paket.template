@@ -1,0 +1,25 @@
+type file
+version 1.0.0
+
+id Be.Vlaanderen.Basisregisters.EventHandling.Autofac
+title Be.Vlaanderen.Basisregisters.EventHandling.Autofac
+
+authors Basisregisters Vlaanderen
+owners agentschap Informatie Vlaanderen <https://vlaanderen.be/informatie-vlaanderen>
+copyright Copyright (c) agentschap Informatie Vlaanderen
+requireLicenseAcceptance false
+projectUrl https://github.com/Informatievlaanderen/event-handling
+iconUrl https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/master/logo.png
+licenseUrl https://opensource.org/licenses/MIT
+
+description Autofac module to help with setting up a lightweight event handling infrastructure.
+
+dependencies
+  framework: netstandard20
+    Be.Vlaanderen.Basisregisters.EventHandling CURRENTVERSION
+
+    Autofac.Extensions.DependencyInjection >= LOCKEDVERSION
+
+files
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\netstandard2.0
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\netstandard2.0

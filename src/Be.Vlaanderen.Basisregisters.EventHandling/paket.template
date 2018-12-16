@@ -1,0 +1,26 @@
+type file
+version 1.0.0
+
+id Be.Vlaanderen.Basisregisters.EventHandling
+title Be.Vlaanderen.Basisregisters.EventHandling
+
+authors Basisregisters Vlaanderen
+owners agentschap Informatie Vlaanderen <https://vlaanderen.be/informatie-vlaanderen>
+copyright Copyright (c) agentschap Informatie Vlaanderen
+requireLicenseAcceptance false
+projectUrl https://github.com/Informatievlaanderen/event-handling
+iconUrl https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/master/logo.png
+licenseUrl https://opensource.org/licenses/MIT
+
+description Lightweight event handling infrastructure.
+
+dependencies
+  framework: netstandard20
+    Be.Vlaanderen.Basisregisters.Converters.TrimString ~> 1.0
+
+    Newtonsoft.Json >= LOCKEDVERSION
+    NodaTime.Serialization.JsonNet >= LOCKEDVERSION
+
+files
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.EventHandling.dll => lib\netstandard2.0
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.EventHandling.pdb => lib\netstandard2.0
