@@ -12,6 +12,7 @@ jobs:
     environment:
       MYGET_FEED: /F/basisregisters
       MYGET_FEED_USER: informatievlaanderen
+      MYGET_HOST: https://informatievlaanderen.myget.org
       NUGET_HOST: https://www.nuget.org
       GIT_USERNAME: release-bot
       GIT_AUTHOR_NAME: release-bot
