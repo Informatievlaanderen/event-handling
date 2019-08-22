@@ -16,7 +16,7 @@ description Lightweight event handling infrastructure.
 
 dependencies
   framework: netstandard20
-    Be.Vlaanderen.Basisregisters.Converters.TrimString ~> 1.0
+    Be.Vlaanderen.Basisregisters.Converters.TrimString ~> 1.1
 
     Newtonsoft.Json >= LOCKEDVERSION
     NodaTime.Serialization.JsonNet >= LOCKEDVERSION
