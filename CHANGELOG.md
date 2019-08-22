@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/informatievlaanderen/event-handling/compare/v1.1.0...v1.1.1) (2019-08-22)
+
+
+### Bug Fixes
+
+* use correct nuget dependencies ([29273c2](https://github.com/informatievlaanderen/event-handling/commit/29273c2))
+
 # [1.1.0](https://github.com/informatievlaanderen/event-handling/compare/v1.0.3...v1.1.0) (2019-08-22)
 
 
