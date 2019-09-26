@@ -40,6 +40,9 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
         public bool TryGetEventType(string eventName, out Type eventType) =>
             _eventNameTypeMapping.TryGetValue(eventName, out eventType);
 
+        public bool HasEventType(string eventName) =>
+            _eventNameTypeMapping.ContainsKey(eventName);
+
         public string GetEventName(Type eventType)
         {
             if (_typeEventNameMapping.ContainsKey(eventType))
@@ -50,5 +53,8 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
 
         public bool TryGetEventName(Type eventType, out string eventName) =>
             _typeEventNameMapping.TryGetValue( eventType, out eventName);
+
+        public bool HasEventName(Type eventType) =>
+            _typeEventNameMapping.ContainsKey(eventType);
     }
 }
