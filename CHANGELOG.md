@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/informatievlaanderen/event-handling/compare/v1.1.1...v1.2.0) (2019-09-26)
+
+
+### Features
+
+* **eventmapping:** adds try get event name and try get event type ([bc1091e](https://github.com/informatievlaanderen/event-handling/commit/bc1091e))
+
 ## [1.1.1](https://github.com/informatievlaanderen/event-handling/compare/v1.1.0...v1.1.1) (2019-08-22)
 
 
