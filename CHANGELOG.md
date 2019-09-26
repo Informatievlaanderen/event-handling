@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/informatievlaanderen/event-handling/compare/v1.2.0...v1.3.0) (2019-09-26)
+
+
+### Features
+
+* **eventmapping:** add has event name and has event type ([f3f9a1b](https://github.com/informatievlaanderen/event-handling/commit/f3f9a1b))
+
 # [1.2.0](https://github.com/informatievlaanderen/event-handling/compare/v1.1.1...v1.2.0) (2019-09-26)
 
 
