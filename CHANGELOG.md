@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/event-handling/compare/v1.3.0...v2.0.0) (2019-11-22)
+
+
+### Code Refactoring
+
+* upgrade to netcoreapp30 ([53c094a](https://github.com/informatievlaanderen/event-handling/commit/53c094a))
+
+
+### BREAKING CHANGES
+
+* Upgrade to .NET Core 3
+
 # [1.3.0](https://github.com/informatievlaanderen/event-handling/compare/v1.2.0...v1.3.0) (2019-09-26)
 
 
