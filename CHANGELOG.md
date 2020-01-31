@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/event-handling/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([74172ed](https://github.com/informatievlaanderen/event-handling/commit/74172ed1b0cc4be88cede7966fbf5fd0fe7d346d))
+
 # [2.1.0](https://github.com/informatievlaanderen/event-handling/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
