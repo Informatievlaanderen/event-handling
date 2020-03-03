@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/event-handling/compare/v2.2.0...v2.2.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([3107d4b](https://github.com/informatievlaanderen/event-handling/commit/3107d4b3a8ae295735ccfd98c9e3b5cc16cb09ff))
+
 # [2.2.0](https://github.com/informatievlaanderen/event-handling/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
