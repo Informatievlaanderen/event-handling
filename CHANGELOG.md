@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/event-handling/compare/v2.2.1...v2.2.2) (2020-05-04)
+
+
+### Bug Fixes
+
+* move to GH-actions ([308b53e](https://github.com/informatievlaanderen/event-handling/commit/308b53e082a6827e132870c4adf93cceb6fd71d3))
+
 ## [2.2.1](https://github.com/informatievlaanderen/event-handling/compare/v2.2.0...v2.2.1) (2020-03-03)
 
 
