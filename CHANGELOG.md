@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/informatievlaanderen/event-handling/compare/v2.2.2...v2.2.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* move to 3.1.4 ([4a8323a](https://github.com/informatievlaanderen/event-handling/commit/4a8323a04f410a3a458998ab6ba8f023ccff889d))
+
 ## [2.2.2](https://github.com/informatievlaanderen/event-handling/compare/v2.2.1...v2.2.2) (2020-05-04)
 
 
