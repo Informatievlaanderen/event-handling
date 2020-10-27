@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/informatievlaanderen/event-handling/compare/v2.2.6...v2.3.0) (2020-10-27)
+
+
+### Features
+
+* add EventPropertyDescription and EventTags attributes ([d78ed05](https://github.com/informatievlaanderen/event-handling/commit/d78ed0517138a557ec45bf57635062e630bf066e))
+
 ## [2.2.6](https://github.com/informatievlaanderen/event-handling/compare/v2.2.5...v2.2.6) (2020-09-21)
 
 
