@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/informatievlaanderen/event-handling/compare/v2.3.0...v2.3.1) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([5febd9d](https://github.com/informatievlaanderen/event-handling/commit/5febd9d43045e962469a5657c8ab51bf605a9f17))
+
 # [2.3.0](https://github.com/informatievlaanderen/event-handling/compare/v2.2.6...v2.3.0) (2020-10-27)
 
 
