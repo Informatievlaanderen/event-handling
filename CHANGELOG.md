@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/informatievlaanderen/event-handling/compare/v2.3.1...v2.4.0) (2020-11-27)
+
+
+### Features
+
+* add markdown generator for event documentation ([7a13003](https://github.com/informatievlaanderen/event-handling/commit/7a130038b6b88f3801200c65393dd7c602c14958))
+
 ## [2.3.1](https://github.com/informatievlaanderen/event-handling/compare/v2.3.0...v2.3.1) (2020-11-18)
 
 
