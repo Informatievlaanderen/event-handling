@@ -26,7 +26,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
         private static StringBuilder AppendInfo(this StringBuilder builder, IEnumerable<EventPropertyInformation> eventPropertyInfos)
         {
             builder
-                .AppendLine("| Property | Omschrijving |")
+                .AppendLine("| Attribuut | Omschrijving |")
                 .AppendLine("|---|---|");
 
             foreach (var property in eventPropertyInfos)
