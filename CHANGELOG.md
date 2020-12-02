@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/informatievlaanderen/event-handling/compare/v2.4.0...v2.4.1) (2020-12-02)
+
+
+### Bug Fixes
+
+* remove empty lines when no event description is set GRAR-1613 ([4d979f1](https://github.com/informatievlaanderen/event-handling/commit/4d979f1023f0ece118c2a2016faeaa6654f2c8d8))
+
 # [2.4.0](https://github.com/informatievlaanderen/event-handling/compare/v2.3.1...v2.4.0) (2020-11-27)
 
 
