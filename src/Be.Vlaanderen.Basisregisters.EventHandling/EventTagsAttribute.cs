@@ -1,12 +1,15 @@
 namespace Be.Vlaanderen.Basisregisters.EventHandling
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class EventTagsAttribute : Attribute
     {
-        public string[] Tags { get; }
+        public IEnumerable<EventTag> Tags { get; }
 
-        public EventTagsAttribute(params string[] eventTags) => Tags = eventTags ?? new string[0];
+        public EventTagsAttribute(params EventTag[] eventTags)
+            => Tags = eventTags?.Where(t => t != null) ?? new EventTag[0];
     }
 }
