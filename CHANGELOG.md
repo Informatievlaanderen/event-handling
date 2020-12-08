@@ -1,3 +1,27 @@
+# [3.0.0](https://github.com/informatievlaanderen/event-handling/compare/v2.4.1...v3.0.0) (2020-12-08)
+
+
+### Bug Fixes
+
+* change EventTagsAttribute to strong type ([f5a72b4](https://github.com/informatievlaanderen/event-handling/commit/f5a72b4ea1001267de036d049bc8d2a6476c79a3))
+
+
+### Features
+
+* add generating markdown for specific tags ([35f29b3](https://github.com/informatievlaanderen/event-handling/commit/35f29b3833a8a3ec99c335c2141344c0540149b5))
+* generate markdown for a multiple generators ([acabd3b](https://github.com/informatievlaanderen/event-handling/commit/acabd3b20fd38ded75ffd822e37ade73371521af))
+
+
+### BREAKING CHANGES
+
+* CHANGES
+added function to the public Interface
+* CHANGE
+removed the WriteTo function from the interface
+created extension on collection of generators
+* CHANGE
+Tags property type is changed from string[] to IEnumerable<EventTag>
+
 ## [2.4.1](https://github.com/informatievlaanderen/event-handling/compare/v2.4.0...v2.4.1) (2020-12-02)
 
 
