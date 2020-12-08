@@ -6,28 +6,27 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
     using System.Text;
     using EventHandling;
 
-    public interface IRegistryEventsMarkdownGenerator
-    {
-        string Generate();
-        void WriteTo(StringBuilder builder);
-    }
-
     public class RegistryEventsMarkdownGenerator<TAssemblyMarker> : IRegistryEventsMarkdownGenerator
     {
         private readonly string _registryName;
+        private readonly Func<StringBuilder> _markdownStringBuilderFactory;
+
+        private RegistryEventsMarkdownGenerator(
+            string registryName,
+            Func<StringBuilder> markdownStringBuilderFactory)
+        {
+            _registryName = registryName;
+            _markdownStringBuilderFactory = markdownStringBuilderFactory;
+        }
 
         public RegistryEventsMarkdownGenerator(string registryName)
-            => _registryName = registryName;
+            : this(registryName, () => new StringBuilder())
+        { }
 
         public string Generate()
         {
-            var builder = new StringBuilder();
-            WriteTo(builder);
-            return builder.ToString();
-        }
+            var builder = _markdownStringBuilderFactory();
 
-        public void WriteTo(StringBuilder builder)
-        {
             var events = typeof(TAssemblyMarker)
                 .GetTypeInfo()
                 .Assembly
@@ -38,7 +37,12 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
             builder
                 .AppendRegistry(_registryName)
                 .AppendInfo(events);
+
+            return builder.ToString();
         }
+
+        IRegistryEventsMarkdownGenerator IRegistryEventsMarkdownGenerator.CreateDuplicateUsing(StringBuilder externalMarkdownBuilder)
+            => new RegistryEventsMarkdownGenerator<TAssemblyMarker>(_registryName, () => externalMarkdownBuilder);
 
         private static bool IsClassWithAttribute<TAttribute>(Type type)
             where TAttribute : Attribute
