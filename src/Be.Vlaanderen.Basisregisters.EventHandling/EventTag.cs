@@ -4,10 +4,13 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
 
     public class EventTag
     {
-        private readonly string _tagType;
+        public class For
+        {
+            public const string Sync = "sync";
+            public const string Crab = "crab";
+        }
 
-        public static EventTag Sync => new EventTag("sync");
-        public static EventTag Crab => new EventTag("crab");
+        private readonly string _tagType;
 
         private EventTag(string tagType)
             => _tagType = string.IsNullOrWhiteSpace(tagType)
@@ -27,8 +30,5 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
 
         public override int GetHashCode()
             => _tagType.GetHashCode();
-
-        public static implicit operator string(EventTag tag)
-            => tag?.ToString() ?? throw new ArgumentNullException($"Imlicit convert of {nameof(EventTag)} to string failed.");
     }
 }
