@@ -27,5 +27,8 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
 
         public override int GetHashCode()
             => _tagType.GetHashCode();
+
+        public static implicit operator string(EventTag tag)
+            => tag?.ToString() ?? throw new ArgumentNullException($"Imlicit convert of {nameof(EventTag)} to string failed.");
     }
 }
