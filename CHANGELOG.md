@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/informatievlaanderen/event-handling/compare/v3.0.0...v3.0.1) (2020-12-09)
+
+
+### Bug Fixes
+
+* change not supported attibute constructor parameters GRAR-1612 ([d0a5bcc](https://github.com/informatievlaanderen/event-handling/commit/d0a5bcc1a6ba85b5f516fd433c8db2a5d77728bd))
+
 # [3.0.0](https://github.com/informatievlaanderen/event-handling/compare/v2.4.1...v3.0.0) (2020-12-08)
 
 
