@@ -9,7 +9,9 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
     {
         public IEnumerable<EventTag> Tags { get; }
 
-        public EventTagsAttribute(params EventTag[] eventTags)
-            => Tags = eventTags?.Where(t => t != null) ?? new EventTag[0];
+        public EventTagsAttribute(params string[] eventTags)
+            => Tags = eventTags
+                ?.Where(tag => !string.IsNullOrWhiteSpace(tag))
+                .Select(EventTag.Create) ?? new List<EventTag>();
     }
 }
