@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/informatievlaanderen/event-handling/compare/v3.0.1...v3.0.2) (2020-12-10)
+
+
+### Bug Fixes
+
+* use const strings for defined event tags ¯\_(ツ)_/¯ ([697b66a](https://github.com/informatievlaanderen/event-handling/commit/697b66a2a363092b9ed41a7b051e7f6585742182))
+
 ## [3.0.1](https://github.com/informatievlaanderen/event-handling/compare/v3.0.0...v3.0.1) (2020-12-09)
 
 
