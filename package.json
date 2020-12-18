@@ -1,6 +1,6 @@
 {
   "name": "event-handling",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Lightweight event handling infrastructure.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
