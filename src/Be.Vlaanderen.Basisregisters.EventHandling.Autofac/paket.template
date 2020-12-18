@@ -15,11 +15,11 @@ licenseUrl https://opensource.org/licenses/MIT
 description Autofac module to help with setting up a lightweight event handling infrastructure.
 
 dependencies
-  framework: netcoreapp31
+  framework: net5.0
     Be.Vlaanderen.Basisregisters.EventHandling CURRENTVERSION
 
     Autofac.Extensions.DependencyInjection >= LOCKEDVERSION
 
 files
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\netcoreapp3.1
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\netcoreapp3.1
+  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\net5.0
+  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\net5.0
