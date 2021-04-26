@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/informatievlaanderen/event-handling/compare/v3.0.4...v3.1.0) (2021-04-26)
+
+
+### Features
+
+* add EventSnapshotAttribute and added event mapping accordingly ([74b4f52](https://github.com/informatievlaanderen/event-handling/commit/74b4f5237489ade94cf38075a3698a8b6faf5098))
+
 ## [3.0.4](https://github.com/informatievlaanderen/event-handling/compare/v3.0.3...v3.0.4) (2021-02-02)
 
 
