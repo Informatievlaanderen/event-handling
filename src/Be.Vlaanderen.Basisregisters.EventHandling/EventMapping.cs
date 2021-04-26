@@ -21,10 +21,20 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
         public static IReadOnlyDictionary<string, Type> DiscoverEventNamesInAssembly(Assembly assemblyToScan)
         {
             var types =
-                from t in assemblyToScan.GetTypes().AsParallel()
+                (from t in assemblyToScan.GetTypes().AsParallel()
                 let attributes = t.GetCustomAttributes(typeof(EventNameAttribute), true)
                 where attributes != null && attributes.Length == 1
-                select new { Type = t, EventName = attributes.Cast<EventNameAttribute>().Single().Value };
+                select new { Type = t, EventName = attributes.Cast<EventNameAttribute>().Single().Value }).ToList();
+
+            types.AddRange(
+                from t in assemblyToScan.GetTypes().AsParallel()
+                let attributes = t.GetCustomAttributes(typeof(EventSnapshotAttribute), true)
+                where attributes != null && attributes.Length == 1
+                select new
+                {
+                    Type = attributes.Cast<EventSnapshotAttribute>().Single().SnapshotType,
+                    EventName = attributes.Cast<EventSnapshotAttribute>().Single().EventName
+                });
 
             return types.ToDictionary(x => x.EventName, x => x.Type);
         }
