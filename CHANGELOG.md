@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/event-handling/compare/v3.1.1...v4.0.0) (2022-03-24)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([f213a67](https://github.com/informatievlaanderen/event-handling/commit/f213a67efdfaf38569d548ee5374e41982b47b48))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [3.1.1](https://github.com/informatievlaanderen/event-handling/compare/v3.1.0...v3.1.1) (2021-05-28)
 
 
