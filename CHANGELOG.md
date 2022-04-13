@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/informatievlaanderen/event-handling/compare/v4.0.0...v4.1.0) (2022-04-13)
+
+
+### Features
+
+* add IMessage ([8ca4123](https://github.com/informatievlaanderen/event-handling/commit/8ca4123d1ae7d2c62bc45e07fc08c40f8a146b57))
+
 # [4.0.0](https://github.com/informatievlaanderen/event-handling/compare/v3.1.1...v4.0.0) (2022-03-24)
 
 
