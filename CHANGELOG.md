@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/informatievlaanderen/event-handling/compare/v4.1.0...v4.1.1) (2022-04-27)
+
+
+### Bug Fixes
+
+* redirect sonar to /dev/null ([60e7fc9](https://github.com/informatievlaanderen/event-handling/commit/60e7fc9c426d1748165df261020f2ab58a290855))
+
 # [4.1.0](https://github.com/informatievlaanderen/event-handling/compare/v4.0.0...v4.1.0) (2022-04-13)
 
 
