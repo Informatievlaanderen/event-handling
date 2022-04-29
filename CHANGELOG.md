@@ -1,3 +1,10 @@
+## [4.1.2](https://github.com/informatievlaanderen/event-handling/compare/v4.1.1...v4.1.2) (2022-04-29)
+
+
+### Bug Fixes
+
+* run sonar end when release version != none ([345d595](https://github.com/informatievlaanderen/event-handling/commit/345d59505d69ea25fb6fe7f52a74de3d52a7eb16))
+
 ## [4.1.1](https://github.com/informatievlaanderen/event-handling/compare/v4.1.0...v4.1.1) (2022-04-27)
 
 
