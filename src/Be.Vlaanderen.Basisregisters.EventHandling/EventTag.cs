@@ -8,6 +8,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
         {
             public const string Sync = "sync";
             public const string Crab = "crab";
+            public const string Edit = "edit";
         }
 
         private readonly string _tagType;
