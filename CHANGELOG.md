@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/informatievlaanderen/event-handling/compare/v4.1.2...v4.2.0) (2022-05-16)
+
+
+### Features
+
+* add edit to event tag ([51487b2](https://github.com/informatievlaanderen/event-handling/commit/51487b27e1ed1ca5ba83c7485f7fc6c79085698c))
+
 ## [4.1.2](https://github.com/informatievlaanderen/event-handling/compare/v4.1.1...v4.1.2) (2022-04-29)
 
 
