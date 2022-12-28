@@ -1,3 +1,10 @@
+## [4.2.2](https://github.com/informatievlaanderen/event-handling/compare/v4.2.1...v4.2.2) (2022-12-28)
+
+
+### Bug Fixes
+
+* usings inside namespace ([228701c](https://github.com/informatievlaanderen/event-handling/commit/228701c3c01ddb142aafb3f154090bff957afb55))
+
 ## [4.2.1](https://github.com/informatievlaanderen/event-handling/compare/v4.2.0...v4.2.1) (2022-12-28)
 
 
