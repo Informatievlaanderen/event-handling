@@ -1,3 +1,13 @@
+## [4.2.1](https://github.com/informatievlaanderen/event-handling/compare/v4.2.0...v4.2.1) (2022-12-28)
+
+
+### Bug Fixes
+
+* add Microsoft.Extensions.DependencyInjection ([42b0f9e](https://github.com/informatievlaanderen/event-handling/commit/42b0f9e527f91d9530886e55fc72c0864fb34020))
+* add nuget to dependabot ([99d6f85](https://github.com/informatievlaanderen/event-handling/commit/99d6f858549eefd91dc20f4fe8653f4f653bdaa1))
+* update paket.template ([fba561d](https://github.com/informatievlaanderen/event-handling/commit/fba561d780e06af0d6ebfb7650478c7b6102c127))
+* use VBR_SONAR_TOKEN ([5604b62](https://github.com/informatievlaanderen/event-handling/commit/5604b626681395a3967bcfee397f9e701e3723f4))
+
 # [4.2.0](https://github.com/informatievlaanderen/event-handling/compare/v4.1.2...v4.2.0) (2022-05-16)
 
 
