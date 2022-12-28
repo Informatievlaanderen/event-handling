@@ -1,9 +1,8 @@
-using Be.Vlaanderen.Basisregisters.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
-
 namespace Be.Vlaanderen.Basisregisters.EventHandling.Microsoft
 {
     using System.Reflection;
+    using DependencyInjection;
+    using global::Microsoft.Extensions.DependencyInjection;
     using Newtonsoft.Json;
 
     public class EventHandlingModule : IServiceCollectionModule
