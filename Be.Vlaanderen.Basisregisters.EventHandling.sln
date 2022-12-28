@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{ED752CB6-0C58-4520-8091-2630647230C6}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		build.fsx = build.fsx
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.EventHandling.Microsoft", "src\Be.Vlaanderen.Basisregisters.EventHandling.Microsoft\Be.Vlaanderen.Basisregisters.EventHandling.Microsoft.csproj", "{965ED2C4-EF48-474F-AA8E-19503E41BA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{0591CDFE-7C5E-472A-9FE7-0F33F15F3B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0591CDFE-7C5E-472A-9FE7-0F33F15F3B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0591CDFE-7C5E-472A-9FE7-0F33F15F3B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965ED2C4-EF48-474F-AA8E-19503E41BA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965ED2C4-EF48-474F-AA8E-19503E41BA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965ED2C4-EF48-474F-AA8E-19503E41BA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965ED2C4-EF48-474F-AA8E-19503E41BA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F372043C-6AAB-4801-8CD8-CC1179B89D9E} = {C2F8FF63-7A48-4179-A720-86206C42F496}
 		{0591CDFE-7C5E-472A-9FE7-0F33F15F3B81} = {C2F8FF63-7A48-4179-A720-86206C42F496}
+		{965ED2C4-EF48-474F-AA8E-19503E41BA84} = {C2F8FF63-7A48-4179-A720-86206C42F496}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2EB87445-E263-4E1E-89CC-3839170028E5}
