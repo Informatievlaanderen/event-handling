@@ -1,8 +1,8 @@
 type file
 version 1.0.0
 
-id Be.Vlaanderen.Basisregisters.EventHandling.Autofac
-title Be.Vlaanderen.Basisregisters.EventHandling.Autofac
+id Be.Vlaanderen.Basisregisters.EventHandling.Microsoft
+title Be.Vlaanderen.Basisregisters.EventHandling.Microsoft
 
 authors Basisregisters Vlaanderen
 owners Digitaal Vlaanderen <https://vlaanderen.be/digitaal-vlaanderen>
@@ -18,8 +18,8 @@ dependencies
   framework: net6.0
     Be.Vlaanderen.Basisregisters.EventHandling CURRENTVERSION
 
-    Autofac.Extensions.DependencyInjection >= LOCKEDVERSION
+    Be.Vlaanderen.Basisregisters.DependencyInjection >= LOCKEDVERSION
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\net6.0
+  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Microsoft.dll => lib\net6.0
+  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Microsoft.pdb => lib\net6.0
