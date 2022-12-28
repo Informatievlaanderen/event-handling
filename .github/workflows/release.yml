@@ -105,6 +105,7 @@ jobs:
       run: |
         node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/$LIBNAME/$LIBNAME.$SEMVER.nupkg
         node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/$LIBNAME/$LIBNAME.Autofac.$SEMVER.nupkg
+        node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/$LIBNAME/$LIBNAME.Microsoft.$SEMVER.nupkg
       env:
         LIBNAME: Be.Vlaanderen.Basisregisters.EventHandling
         SEMVER: ${{ env.RELEASE_VERSION }}
