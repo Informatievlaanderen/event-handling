@@ -18,7 +18,7 @@ NUGET
       Newtonsoft.Json (>= 13.0.1)
     Be.Vlaanderen.Basisregisters.Converters.TrimString (3.0)
       Newtonsoft.Json (>= 13.0.1)
-    Be.Vlaanderen.Basisregisters.DependencyInjection (1.0.2)
+    Be.Vlaanderen.Basisregisters.DependencyInjection (1.0.3)
       Microsoft.Extensions.DependencyInjection.Abstractions (>= 6.0)
     BlackFox.VsWhere (1.1)
       FSharp.Core (>= 4.2.3)
