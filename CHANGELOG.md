@@ -1,3 +1,10 @@
+## [4.2.3](https://github.com/informatievlaanderen/event-handling/compare/v4.2.2...v4.2.3) (2022-12-31)
+
+
+### Bug Fixes
+
+* bump dependencies ([81c4dad](https://github.com/informatievlaanderen/event-handling/commit/81c4dadefa0789b935808c2aa14637a672e4653b))
+
 ## [4.2.2](https://github.com/informatievlaanderen/event-handling/compare/v4.2.1...v4.2.2) (2022-12-28)
 
 
