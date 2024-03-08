@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/informatievlaanderen/event-handling/compare/v4.2.3...v5.0.0) (2024-03-08)
+
+
+### Features
+
+* add direct microsoft ioc registration ([84539c9](https://github.com/informatievlaanderen/event-handling/commit/84539c91e36b689a6abbe26c794e06a8515e0f28))
+* move to dotnet 8.0.2 ([d406d5a](https://github.com/informatievlaanderen/event-handling/commit/d406d5a91574bbcaca5f13421be21360291efd53))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 8.0.2
+
 ## [4.2.3](https://github.com/informatievlaanderen/event-handling/compare/v4.2.2...v4.2.3) (2022-12-31)
 
 
