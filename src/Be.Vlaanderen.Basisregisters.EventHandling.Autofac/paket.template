@@ -15,11 +15,11 @@ licenseUrl https://opensource.org/licenses/MIT
 description Autofac module to help with setting up a lightweight event handling infrastructure.
 
 dependencies
-  framework: net6.0
+  framework: netstandard2.1
     Be.Vlaanderen.Basisregisters.EventHandling CURRENTVERSION
 
     Autofac.Extensions.DependencyInjection >= LOCKEDVERSION
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.EventHandling.Autofac.dll => lib\netstandard2.1
+  Be.Vlaanderen.Basisregisters.EventHandling.Autofac.pdb => lib\netstandard2.1
