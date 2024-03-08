@@ -15,12 +15,12 @@ licenseUrl https://opensource.org/licenses/MIT
 description Lightweight event handling infrastructure.
 
 dependencies
-  framework: net6.0
+  framework: netstandard2.1
     Be.Vlaanderen.Basisregisters.Converters.TrimString >= LOCKEDVERSION
 
     Newtonsoft.Json >= LOCKEDVERSION
     NodaTime.Serialization.JsonNet >= LOCKEDVERSION
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.EventHandling.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.EventHandling.dll => lib\netstandard2.1
+  Be.Vlaanderen.Basisregisters.EventHandling.pdb => lib\netstandard2.1
