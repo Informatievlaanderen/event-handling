@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/informatievlaanderen/event-handling/compare/v5.0.0...v5.1.0) (2024-07-29)
+
+
+### Features
+
+* add event tags ([36ab1fc](https://github.com/informatievlaanderen/event-handling/commit/36ab1fc8524225489c223717535e4b876ac2e36d))
+
 # [5.0.0](https://github.com/informatievlaanderen/event-handling/compare/v4.2.3...v5.0.0) (2024-03-08)
 
 
