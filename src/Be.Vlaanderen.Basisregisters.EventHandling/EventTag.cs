@@ -9,6 +9,15 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
             public const string Sync = "sync";
             public const string Crab = "crab";
             public const string Edit = "edit";
+            public const string Merger = "merger";
+            public const string Legacy = "legacy";
+
+            public const string Municipality = "municipality";
+            public const string PostalInformation = "postalinformation";
+            public const string StreetName = "streetname";
+            public const string Address = "address";
+            public const string Building = "building";
+            public const string Parcel = "parcel";
         }
 
         private readonly string _tagType;
