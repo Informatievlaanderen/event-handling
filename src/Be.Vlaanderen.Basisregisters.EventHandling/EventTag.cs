@@ -2,9 +2,9 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
 {
     using System;
 
-    public class EventTag
+    public sealed class EventTag
     {
-        public class For
+        public static class For
         {
             public const string Sync = "sync";
             public const string Crab = "crab";
@@ -35,7 +35,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
         public override bool Equals(object? obj)
             => obj is EventTag tag && Equals(tag);
 
-        protected bool Equals(EventTag other)
+        private bool Equals(EventTag other)
             => _tagType == other._tagType;
 
         public override int GetHashCode()
