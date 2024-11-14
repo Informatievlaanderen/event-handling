@@ -37,6 +37,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
                 .Assembly
                 .GetExportedTypes()
                 .Where(IsClassWithAttribute<EventNameAttribute>)
+                .Where(t => !IsClassWithAttribute<HideEventAttribute>(t))
                 .Where(HasEventTags(tags.ToList()))
                 .Select(CreateEventInformation);
 
