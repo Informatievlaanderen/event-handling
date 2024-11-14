@@ -37,6 +37,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
                 .Assembly
                 .GetExportedTypes()
                 .Where(IsClassWithAttribute<EventNameAttribute>)
+                .Where(t => !IsClassWithAttribute<HideEventAttribute>(t))
                 .Where(HasEventTags(tags.ToList()))
                 .Select(CreateEventInformation);
 
@@ -59,10 +60,8 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Documentation
                 throw new ArgumentNullException(nameof(requestedTags));
 
             return requestedTags.Count == 0
-                ? (Func<Type, bool>) AllowAllEvents
+                ? _ => true
                 : HasAnyRequestedEventTag;
-
-            static bool AllowAllEvents(Type eventType) => true;
 
             bool HasAnyRequestedEventTag(Type eventType)
             {

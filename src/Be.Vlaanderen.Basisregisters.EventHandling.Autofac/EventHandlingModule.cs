@@ -18,17 +18,17 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling.Autofac
             _eventMapping = new EventMapping(EventMapping.DiscoverEventNamesInAssembly(eventsAssembly));
         }
 
-        protected override void Load(ContainerBuilder containerBuilder)
+        protected override void Load(ContainerBuilder builder)
         {
-            containerBuilder
+            builder
                 .RegisterInstance(_eventMapping)
                 .As<EventMapping>();
 
-            containerBuilder
+            builder
                 .RegisterInstance(_eventDeserializer)
                 .As<EventDeserializer>();
 
-            containerBuilder
+            builder
                 .RegisterInstance(_eventSerializer)
                 .As<EventSerializer>();
         }
