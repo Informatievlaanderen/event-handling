@@ -1,3 +1,20 @@
+# [6.0.0](https://github.com/informatievlaanderen/event-handling/compare/v5.1.0...v6.0.0) (2024-11-18)
+
+
+### Code Refactoring
+
+* sonar suggestions ([59e8a17](https://github.com/informatievlaanderen/event-handling/commit/59e8a178f85b500fafbda17c0a99b4ad0e31fe70))
+
+
+### Features
+
+* add HideEventAttribute to hide in documentation ([95062c7](https://github.com/informatievlaanderen/event-handling/commit/95062c73fdc94a11f4e7b201c1de95ccfc8c5975))
+
+
+### BREAKING CHANGES
+
+* EventTag is now sealed
+
 # [5.1.0](https://github.com/informatievlaanderen/event-handling/compare/v5.0.0...v5.1.0) (2024-07-29)
 
 
