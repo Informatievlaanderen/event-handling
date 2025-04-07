@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregister
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F3664DC-9935-47F0-AACD-52423F8A3F6D}"
 	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
+		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
 Global

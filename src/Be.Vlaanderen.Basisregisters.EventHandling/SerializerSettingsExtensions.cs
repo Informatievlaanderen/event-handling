@@ -32,7 +32,7 @@ namespace Be.Vlaanderen.Basisregisters.EventHandling
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.Utc;
 
-            source.Converters.Add(new StringEnumConverter { CamelCaseText = true });
+            source.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy()});
             source.Converters.Add(new TrimStringConverter());
 
             return source
