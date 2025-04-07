@@ -1,0 +1,17 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <CentralPackageVersionOverrideEnabled>false</CentralPackageVersionOverrideEnabled>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageVersion Include="NodaTime.Serialization.JsonNet" Version="3.2.0" />
+        <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+
+        <PackageVersion Include="Be.Vlaanderen.Basisregisters.Converters.TrimString" Version="5.0.0" />
+
+        <PackageVersion Include="SourceLink.Embed.AllSourceFiles" Version="2.8.3" />
+        <PackageVersion Include="SourceLink.Copy.PdbFiles" Version="2.8.3" />
+    </ItemGroup>
+</Project>
