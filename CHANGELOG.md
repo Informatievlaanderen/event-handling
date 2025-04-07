@@ -1,3 +1,15 @@
+# [7.0.0](https://github.com/informatievlaanderen/event-handling/compare/v6.0.0...v7.0.0) (2025-04-07)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([c523c18](https://github.com/informatievlaanderen/event-handling/commit/c523c181f3984d8221c8a7e5d3907899d0a6b3dd))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [6.0.0](https://github.com/informatievlaanderen/event-handling/compare/v5.1.0...v6.0.0) (2024-11-18)
 
 
