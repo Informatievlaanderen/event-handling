@@ -139,14 +139,14 @@ jobs:
         pip install requests markdown argparse
 
     - name: Download NuGet Event Handling
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.EventHandling-${{ needs.set-release-version.outputs.version }}
         path: dist/nuget/
 
     - name: Download NuGet Event Handling Autofac
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.EventHandling.Autofac-${{ needs.set-release-version.outputs.version }}
@@ -195,13 +195,13 @@ jobs:
       run: dotnet --info
 
     - name: Download NuGet Event Handling package
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.EventHandling-${{ needs.release.outputs.version }}
         path: ~/
 
     - name: Download NuGet Event Handling Autofac package
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.EventHandling.Autofac-${{ needs.release.outputs.version }}
         path: ~/
