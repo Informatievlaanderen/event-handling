@@ -1,3 +1,10 @@
+# [7.1.0](https://github.com/informatievlaanderen/event-handling/compare/v7.0.0...v7.1.0) (2026-06-02)
+
+
+### Features
+
+* update packages ([5865322](https://github.com/informatievlaanderen/event-handling/commit/586532275ba7a1cd8cb71d34b08a97ae1d2e4c9d))
+
 # [7.0.0](https://github.com/informatievlaanderen/event-handling/compare/v6.0.0...v7.0.0) (2025-04-07)
 
 
