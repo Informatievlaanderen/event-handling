@@ -19,11 +19,11 @@
       },
       "NodaTime.Serialization.JsonNet": {
         "type": "Direct",
-        "requested": "[3.2.1, )",
-        "resolved": "3.2.1",
-        "contentHash": "/8eeaH/LNIcpIEiBTg/0M/hwsMis0cKVWPyLYnQhXrH2k+9zNrnsOin9Vym6OclSGGndOnNNa6EHUln4S70HKg==",
+        "requested": "[3.3.0, )",
+        "resolved": "3.3.0",
+        "contentHash": "uhBuAjeUp12xkJyDTUDTMoea3FCqjY9jkRzCvtoIcETDXxPPqdCCMM/MlrNUHe4LmbZSQyOXY9JS2vPlgvljWA==",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
+          "Newtonsoft.Json": "13.0.4",
           "NodaTime": "[3.0.0, 4.0.0)"
         }
       },
