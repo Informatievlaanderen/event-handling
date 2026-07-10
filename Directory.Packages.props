@@ -7,7 +7,7 @@
     <ItemGroup>
         <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
         <PackageVersion Include="NodaTime.Serialization.JsonNet" Version="3.2.1" />
-        <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="11.0.0" />
+        <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="11.0.2" />
 
         <PackageVersion Include="Be.Vlaanderen.Basisregisters.Converters.TrimString" Version="5.1.0" />
 
